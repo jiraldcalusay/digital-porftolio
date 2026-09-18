@@ -7,7 +7,7 @@ const HeroSection = ({ buttonsRef }: any) => {
   return (
     <section
       id="home"
-      className="relative flex flex-col items-center justify-center px-4 overflow-hidden text-center bg-primary1 dark:bg-primary1-dark min-h-fit h-[calc(100vh-64px)] max-h-225 py-16"
+      className="relative flex flex-col items-center justify-center px-4 overflow-hidden text-center bg-white dark:bg-primary1-dark min-h-fit h-[calc(100vh-64px)] max-h-225 py-16"
     >
       {/* Animated gradient background */}
       <div className="hero-bg" aria-hidden="true">

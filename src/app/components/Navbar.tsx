@@ -139,7 +139,7 @@ const Navbar = ({ showButtons }: any) => {
     return (
         <>
             <div
-                className={`flex sticky top-0 z-100 justify-center w-full h-16 bg-primary1/90 backdrop-blur border-b dark:bg-primary1-dark dark:border-zinc-700`}
+                className={`flex sticky top-0 z-100 justify-center w-full h-16 bg-white/90 backdrop-blur border-b dark:bg-primary1-dark dark:border-zinc-700`}
             >
                 <div className="flex items-center justify-between w-full max-w-6xl gap-8 px-4">
                     <button
@@ -259,7 +259,7 @@ const Navbar = ({ showButtons }: any) => {
                 </div>
             </div>
             {isMenuOpened && (
-                <div className="fixed inset-0 z-100 flex flex-col bg-primary1 md:hidden dark:bg-primary1-dark">
+                <div className="fixed inset-0 z-100 flex flex-col bg-white md:hidden dark:bg-primary1-dark">
                     <div className="flex items-center justify-between h-16 px-4 border-b shrink-0 dark:border-zinc-700">
                         <span className="font-mono text-xs tracking-widest uppercase text-secondary-text dark:text-secondary-text-dark">
                             Menu

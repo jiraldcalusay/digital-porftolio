@@ -21,7 +21,7 @@ const ProjectsCard = memo(
       "flex items-center justify-center px-5 text-sm font-medium transition-colors bg-transparent border rounded-full h-11 border-primary5 dark:border-zinc-600 hover:bg-primary-hovered dark:hover:bg-primary-hovered-dark";
 
     return (
-      <article className="grid w-full h-full overflow-hidden bg-white border rounded-2xl border-border-warm dark:bg-primary2-dark dark:border-zinc-700 lg:grid-cols-[1.8fr_1fr]">
+      <article className="grid w-full h-full overflow-hidden bg-white border rounded-2xl border-border-warm dark:bg-primary1-dark dark:border-zinc-700 lg:grid-cols-[1.8fr_1fr]">
         {/* Screenshot, full-bleed. Every project shot is exactly 16:9 and the
             column ratio is tuned so the cell's own 16:9 height is what sets the
             card height — the image fills edge to edge without being cropped. */}

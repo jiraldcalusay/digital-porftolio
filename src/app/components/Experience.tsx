@@ -27,7 +27,7 @@ const Experience = () => {
     return (
         <section
             id="experience"
-            className="flex flex-col items-center px-4 py-14 border-t sm:px-8 bg-primary1 dark:bg-primary1-dark dark:border-zinc-700"
+            className="flex flex-col items-center px-4 py-14 border-t sm:px-8 bg-white dark:bg-primary1-dark dark:border-zinc-700"
         >
             <div className="w-full max-w-6xl">
                 {/* Section header */}

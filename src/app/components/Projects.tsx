@@ -175,7 +175,7 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className="py-14 overflow-hidden border-t bg-primary1 dark:bg-primary1-dark dark:border-zinc-700"
+            className="py-14 overflow-hidden border-t bg-primary2 dark:bg-primary2-dark dark:border-zinc-700"
         >
             {/* Section header (constrained to the content column) */}
             <FadeIn className="w-full max-w-6xl px-4 mx-auto mb-8">
