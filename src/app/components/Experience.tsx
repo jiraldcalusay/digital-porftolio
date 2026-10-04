@@ -6,7 +6,7 @@ const jobs = [
     {
         job: "Lead Web Developer",
         company: "Qroad Ph",
-        date: "Jun 2026 — Present",
+        date: "Jun 2026 — Aug 2026",
         entries: qroadProjects,
     },
     {
